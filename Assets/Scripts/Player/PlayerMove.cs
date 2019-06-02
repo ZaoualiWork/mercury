@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     public float maxRunSpeed = 8;
     public float curbSpeed = 0.08f; // When no key is pressed, player gets speed reduce
     public float speed = 0; // We need to put both variable on the Range
+    bool enabled;
 
     public GameObject camera1;
     private float playerRotationY;
@@ -19,8 +20,9 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        enabled = true;
 
-}
+    }
     private void FixedUpdate()
         {
             transform.Translate(0, 0, speed * Time.deltaTime, Space.Self);
@@ -33,54 +35,56 @@ public class PlayerMove : MonoBehaviour
         transform.eulerAngles = new Vector3(0, playerRotationY, 0);
         // Translation
         {
-
-            // Up 
-            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z))
+            if (enabled)
             {
-                speed++;
-                if (Input.GetKey(KeyCode.LeftShift))                                    // When player runs
+                // Up 
+                if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z))
                 {
-                    if (speed > maxRunSpeed)
+                    speed++;
+                    if (Input.GetKey(KeyCode.LeftShift))                                    // When player runs
                     {
-                        speed = maxRunSpeed;
+                        if (speed > maxRunSpeed)
+                        {
+                            speed = maxRunSpeed;
+                        }
+                    }                                                                       // When player doesn't run
+                    else
+                    {
+                        if (speed > maxSpeed)
+                        {
+                            speed = maxSpeed;
+                        }
                     }
-                }                                                                       // When player doesn't run
+
+                }
                 else
                 {
-                    if (speed > maxSpeed)
+                    if (speed > 0)
+                        speed -= curbSpeed;
+                    else
                     {
-                        speed = maxSpeed;
+                        speed = 0;
                     }
                 }
-
-            }
-            else
-            {
-                if (speed > 0)
-                    speed-= curbSpeed;
-                else
+                // Down
+                if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
                 {
-                    speed = 0;
+                    speed--;
+                    if (speed < minSpeed)
+                    {
+                        speed = minSpeed;
+                    }
                 }
-            }
-            // Down
-            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-            {
-                speed--;
-                if (speed < minSpeed)
+                // Left
+                if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.Q))
                 {
-                    speed = minSpeed;
+                    transform.Rotate(0, -1, 0);
                 }
-            }
-            // Left
-            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.Q))
-            {
-                transform.Rotate(0, -1, 0);
-            }
-            // Right
-            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-            {
-                transform.Rotate(0, 1, 0);
+                // Right
+                if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+                {
+                    transform.Rotate(0, 1, 0);
+                }
             }
         }
 

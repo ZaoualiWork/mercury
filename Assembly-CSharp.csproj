@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{C9D90008-C5A0-06DE-F20A-42EDB46FEAB5}</ProjectGuid>
+    <ProjectGuid>{BA6DEA7D-0537-1378-24F7-7C422533B080}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,131 +61,132 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\BloomComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\FogComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\TaaComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\BloomModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\FogModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\GrainModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\UserLutModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\VignetteModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingComponent.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingContext.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingModel.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingProfile.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Packages\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Packages\RPGPackFree\Scripts\BowString.cs" />
     <Compile Include="Assets\Packages\RPGPackFree\Scripts\OpenChest.cs" />
-    <Compile Include="Assets\Scripts\Player\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Camera\UserCamera.cs" />
+    <Compile Include="Assets\Scripts\Ennemy\EnnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Ennemy\EnnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\Player\UserCamera.cs" />
-    <Compile Include="Assets\Scripts\Player\UserMovement.cs" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\Packages\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Fog.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\LutGen.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ACES.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Packages\Free Low Poly Toon Nature\Readme.txt" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\Packages\Sample- Low Poly Nature Assets\Materials\_MaterialIndex.txt" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\Packages\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Common.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\UI\Trackball.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Bloom.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\TAA.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\Packages\Sample- Low Poly Nature Assets\Documentation.txt" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\GrainGen.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\FXAA.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-    <None Include="Assets\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Packages\LowpolySimpleHouse\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\Models\LowPoly\Forest&amp;Wild\Trees\Herbe\Grass\Info.txt" />
     <Reference Include="Cinemachine">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Games/Mercury Heart/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -389,19 +390,19 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>D:/Games/Mercury Heart/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>D:/Games/Mercury Heart/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Games/Mercury Heart/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Games/Mercury Heart/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Games/Mercury Heart/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>F:/mercury-project/mercury/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
